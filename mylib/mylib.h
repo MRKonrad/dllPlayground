@@ -8,6 +8,11 @@
 #include <iostream>
 #include "mylib_export.h"
 
+template< typename TYPE>
+void myfunctionTemplate();
+
 MYLIB_EXPORT void myfunction();
+
+#include "mylib.hxx"
 
 #endif //PROJECT_MYLIB_H

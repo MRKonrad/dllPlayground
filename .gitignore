@@ -1,5 +1,7 @@
 
 install
+myexe_bin
+mylib_bin
 
 .DS_Store
 .idea
