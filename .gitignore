@@ -1,3 +1,10 @@
+
+install
+
+.DS_Store
+.idea
+cmake-build-debug/
+
 # Prerequisites
 *.d
 
