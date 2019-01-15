@@ -17,7 +17,7 @@ public:
     TYPE mymethod(TYPE number);
 };
 
-#ifdef mylib_EXPORT
+#ifdef mylib_EXPORTS
 #include "mylib.hxx"
 #endif
 
