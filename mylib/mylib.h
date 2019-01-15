@@ -11,8 +11,14 @@
 template< typename TYPE>
 void myfunctionTemplate();
 
-MYLIB_EXPORT void myfunction();
+template< typename TYPE>
+class myclass{
+public:
+    TYPE mymethod(TYPE number);
+};
 
+#ifdef mylib_EXPORT
 #include "mylib.hxx"
+#endif
 
 #endif //PROJECT_MYLIB_H

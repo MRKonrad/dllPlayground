@@ -2,9 +2,13 @@
 // Created by Konrad Werys on 14/01/2019.
 //
 
-#include "mylib.h"
+#include "mylibApi.h"
 
 int main(){
-    myfunction();
+    myfunctionApi();
+
+    myclass<int> myobject;
+    myobject.mymethod(4);
+
     return 0;
 }
