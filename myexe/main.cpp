@@ -8,7 +8,7 @@ int main(){
     myfunctionApi();
 
     myclass<int> myobject;
-    myobject.mymethod(4);
+    myobject.mymethod(6);
 
     return 0;
 }
