@@ -4,8 +4,8 @@
 #include "anotherdll_export.h"
 #include "library.h"
 
-template class  myclassTemplate<int>;
-template class  myclassTemplate<float>;
-template class  myclassTemplate<double>;
+template class ANOTHERDLL_EXPORT myclassTemplate<int>;
+template class ANOTHERDLL_EXPORT myclassTemplate<float>;
+template class ANOTHERDLL_EXPORT myclassTemplate<double>;
 
 #endif //MYLIB_MYLIBAPI_H

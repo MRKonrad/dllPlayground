@@ -2,6 +2,7 @@
 install
 myexe_bin
 mylib_bin
+anotherDll_bin
 
 .DS_Store
 .idea
