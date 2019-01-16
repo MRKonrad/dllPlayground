@@ -11,8 +11,13 @@
 template< typename TYPE>
 void myfunctionTemplate();
 
-template< typename TYPE>
 class myclass{
+public:
+    int mymethod(int number);
+};
+
+template< typename TYPE>
+class myclassTemplate{
 public:
     TYPE mymethod(TYPE number);
 };

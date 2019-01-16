@@ -2,7 +2,7 @@
 
 int main(){
     myfunctionApi();
-    myclass<int> myobject;
+    myclassTemplate<int> myobject;
     myobject.mymethod(4);
     return 0;
 }

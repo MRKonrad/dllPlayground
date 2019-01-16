@@ -7,8 +7,11 @@
 int main(){
     myfunctionApi();
 
-    myclass<int> myobject;
-    myobject.mymethod(6);
+    myclassTemplate<int> myobjectFromTemplate;
+    myobjectFromTemplate.mymethod(6);
+
+    myclass myobject;
+    myobject.mymethod(9);
 
     return 0;
 }

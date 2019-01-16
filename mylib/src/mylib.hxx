@@ -11,8 +11,8 @@ void myfunctionTemplate(){
 }
 
 template< typename TYPE>
-TYPE myclass<TYPE>::mymethod(TYPE number) {
-    std::cout << "mymethod's number: " << number << std::endl;
+TYPE myclassTemplate<TYPE>::mymethod(TYPE number) {
+    std::cout << "myclassTemplate mymethod's number: " << number << std::endl;
     return 0;
 }
 

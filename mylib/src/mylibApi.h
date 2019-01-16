@@ -8,9 +8,8 @@
 #include "mylib_export.h"
 #include "mylib.h"
 
-
 MYLIB_EXPORT void myfunctionApi();
 
-template class MYLIB_EXPORT myclass<int>;
+template class MYLIB_EXPORT myclassTemplate<int>;
 
 #endif //MYLIB_MYLIBAPI_H
